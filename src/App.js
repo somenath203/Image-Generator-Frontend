@@ -70,9 +70,6 @@ const App = () => {
     }
 
 
-    setGetImageInput('');
-
-
   };
 
 
@@ -95,7 +92,6 @@ const App = () => {
               type='text'
               placeholder="enter the text whose image you want to generate"
               className="text-white"
-              value={getImageInput}
               onChange={(e) => setGetImageInput(e.target.value)}
             />
 
