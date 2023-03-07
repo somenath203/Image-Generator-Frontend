@@ -76,7 +76,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-slate-800 flex items-center justify-center text-center">
 
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-8 w-4/5 lg:w-10/12">
 
         <h1 className="text-3xl lg:text-5xl text-white tracking-tightest font-cabin">Image Generator</h1>
 
