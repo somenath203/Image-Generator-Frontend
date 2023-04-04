@@ -60,11 +60,11 @@ const App = () => {
       setOnDispModal(false);
 
       toast({
-        title: 'Failure.',
-        description: error.response.data.message,
+        title: 'Failure',
+        description: 'Failed to generate image or API key usage limit reached',
         status: 'error',
-        duration: 5000,
-        isClosable: true,
+        duration: 9000,
+        isClosable: true
       });
 
     }
